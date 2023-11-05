@@ -208,3 +208,17 @@
 
 
 }
+
+
+@media only screen and (max-width: 663px) {
+    .image-c {
+    
+    
+            animation-duration: 5s;
+            top: 6250px;
+           animation-duration: 5s !important;
+            left: 90px !important;
+            max-width: 35px !important;
+        }
+
+}
