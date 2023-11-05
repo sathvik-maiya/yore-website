@@ -4,7 +4,7 @@
 
 `npm i`
 
-`npm run`
+`npm start`
 
 
 
