@@ -401,15 +401,3 @@ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 
-@media screen and (min-width: 360px) and (max-width: 663px) {
-.image-cont {
-    top: 2250px;
-        bottom: -7% !important;
-        left: 90px !important;
-        max-width: 35px !important;
-        animation-duration: 5s !important;
-
-    }
-
-
-  }

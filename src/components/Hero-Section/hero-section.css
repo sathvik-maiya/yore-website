@@ -119,15 +119,3 @@ animation-duration: 5s !important;
 
 
  }
-
-@media screen and (min-width: 360px) and (max-width: 663px) {
-    .image-container {
-            bottom: -30% !important;
-            left: 90px !important;
-            max-width: 35px !important;
-            animation-duration: 5s !important;
-    
-    
-        }
-    
-}

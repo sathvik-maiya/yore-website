@@ -92,17 +92,3 @@
 
 
 }
-@media screen and (min-width: 360px) and (max-width: 663px) {
-     .image-con {
-        position: absolute;
-            animation: linear infinite alternate;
-            animation-name: runnin;
-            animation-duration: 20s;
-            top: 4050px;
-            animation-duration: 5s !important;
-            left: 90px !important;
-            max-width: 35px !important;
-     }
-
-
- }
