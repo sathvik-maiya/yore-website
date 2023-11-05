@@ -1,0 +1,210 @@
+.MuiTypography-overline {
+    line-height: 1.5 !important;
+    color: rgb(20, 191, 151) !important;
+    margin: auto !important;
+    background: rgb(234, 244, 235) !important;
+    padding: 10px 7px 3px 7px !important;
+    border-radius: 4px !important;
+    font-family: 'Baloo Bhai 2', sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.first {
+    padding-top: 85px;
+}
+
+
+
+
+.mobil_img {
+    max-width: 90%;
+    height: 90%;
+    position: relative;
+    left:190px;
+
+}
+.mainbo {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+
+.but {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+    padding-left: 460px;
+
+}
+
+.bo1 {
+
+    padding-top: 130px;
+    padding-left: 160px;
+}
+
+.di1 {
+    max-width: 65%;
+
+
+    margin-bottom: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}
+
+.di2 {
+
+    margin-bottom: 30px;
+    max-width: 65%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}
+
+.di3 {
+
+    max-width: 65%;
+    margin-bottom: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}
+
+
+.inside {
+    position: relative;
+    bottom: 32px;
+    left: 60px;
+    background-color: transparent;
+}
+
+
+
+
+
+.image-container {
+    bottom: 10%;
+    display: block;
+    position: absolute;
+    animation: linear infinite alternate;
+    animation-name: run;
+    animation-duration: 20s;
+
+
+}
+
+.pendulum-image {
+    height: 270px;
+    width: 270px;
+}
+
+@keyframes run {
+    0% {
+        left: 60%;
+        transform: translateX(0);
+    }
+
+    100% {
+        left: 90%;
+        transform: translateX(-100%);
+    }
+}
+
+.image-c {
+
+    position: absolute;
+    animation: linear infinite alternate;
+    animation-name: runnin;
+    animation-duration: 20s;
+    top: 4400px;
+
+}
+
+
+@keyframes runnin {
+    0% {
+        left: 60%;
+        transform: translateX(0);
+    }
+
+    100% {
+        left: 90%;
+        transform: translateX(-100%);
+    }
+}
+
+
+@keyframes moveUpDown {
+    0% {
+        bottom: 0;
+
+    }
+
+    100% {
+        bottom: calc(100% - 100px);
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .mobil_img {
+        max-width: 80%;
+        height: 80%;
+        position: relative;
+        left: -30px !important;
+
+
+
+    }
+
+    .mainbo {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+
+        .image-c {
+    
+            
+            animation-duration: 5s;
+            top: 5850px;
+   
+        
+        animation-duration: 5s !important;
+        left: 90px !important;
+        max-width: 35px !important;
+        }
+
+.box1 {
+
+    padding-top: 40px;
+    padding-left: 15px;
+}
+
+.di1 {
+    max-width: 96%;
+
+}
+
+.di2 {
+
+    max-width: 96%;
+
+}
+
+.di3 {
+    max-width: 96%;
+}
+
+
+
+}

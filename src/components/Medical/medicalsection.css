@@ -1,0 +1,96 @@
+
+.pres{
+    max-width: 35%;
+    height: 55%;
+    margin-right: 10px;
+  
+}
+.medi {
+    max-width: 35%;
+    height: 55%;
+    margin-left: 10px;
+}
+.what{
+        max-width: 13%;
+            height: 10%;
+            position: relative;
+            bottom:90px;
+            left:220px;
+            background-color: #efb839;
+            animation: growAnimation 3s alternate infinite;
+}
+.book{
+    max-width: 13%;
+    height: 10%;
+    position: relative;
+    bottom:90px;
+    left:540px;
+    background-color: rgb(236, 228, 228);
+    animation: growAnimation 3s alternate infinite;
+
+}
+
+.cont{
+width: 100vw;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+padding-top: 100px;
+
+
+}
+@keyframes growAnimation {
+    0% {
+        transform: scale(1);
+     
+    }
+
+    100% {
+        transform: scale(1.2);
+       
+    }
+}
+
+@media only screen and (max-width: 600px) {
+.cont {
+      display: flex;
+        flex-direction: column;
+       margin: auto;
+      padding-top: 10px;
+       overflow-x: hidden;
+       width:95vw;
+    }
+
+
+.pres {
+    max-width: 95%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+}
+
+.medi {
+    max-width: 95%;
+    margin-left: 10px;
+}
+
+.what {
+    max-width: 26%;
+    position: relative;
+    bottom: 235px;
+    left: 40px;
+   }
+
+.book {
+    max-width: 26%;
+    position: relative;
+    bottom: 70px;
+   left:-57px;
+   
+
+}
+
+
+}

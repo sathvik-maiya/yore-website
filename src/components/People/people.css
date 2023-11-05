@@ -1,0 +1,23 @@
+.fir{
+
+    padding-top: 125px;
+}
+
+.parag{
+  padding-left: 420px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+
+.fir{
+padding-top: 195px;
+}
+
+.parag {
+  padding-left: 20px;
+
+
+}
+}

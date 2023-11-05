@@ -1,0 +1,121 @@
+
+*{
+    background-color: #f9f9f9;
+}
+
+.hero__content {
+    padding-top: 30px;
+ 
+}
+
+.MuiTypography-h3{
+       font-size: 3.3rem !important;
+        width: 650px !important;
+        font-family: 'Baloo Bhai 2', sans-serif !important;
+        color: #212B36 !important;
+    text-shadow: 1px 1px #494848 !important;
+        font-weight: 600 !important;
+    line-height: 70px !important;
+}
+
+.hero__img{
+    height: 550px;
+    width:  370px;
+  padding-left: 70px;
+
+     
+}
+.MuiTypography-paragraph{
+    color:#454646 !important;
+    font-size:2rem !important;
+        font-weight: 599 !important;
+            line-height: 1.47143 !important;
+    text-shadow: 0.3px 0.3px #494848 !important;
+   font-family: Nunito !important;
+    margin-top: 15px !important;
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+    margin-left: 60px;
+}
+
+.image-container {
+     bottom: 10%;
+     display: block;
+     position: absolute;
+     animation: linear infinite alternate;
+     animation-name: run;
+     animation-duration: 20s;
+   
+    
+ }
+ .pendulum-image{
+    height:270px;
+    width: 270px;
+ }
+
+ @keyframes run {
+     0% {
+         left: 60%;
+         transform: translateX(0);
+     }
+
+     100% {
+         left: 90%;
+         transform: translateX(-100%);
+     }
+ }
+
+ @media only screen and (max-width: 600px) {
+
+.hero__content {
+      position: relative;
+      bottom:60px;
+      right: 60px;
+      width: 88%;
+      overflow-x: hidden;
+
+    }
+
+
+        .MuiTypography-h3 {
+            font-size: 1.7rem !important;
+            width: 350px !important;
+          line-height: 40px !important;
+        }
+.MuiTypography-paragraph {
+
+    font-size: 1.2rem !important;
+   
+
+}
+
+.hero__img {
+    height:480px;
+    width:330px;
+    position: relative;
+    right: 110px;
+    bottom:60px;
+
+
+}
+
+.image-container {
+    bottom:-7% !important;
+    left: 90px !important;
+    max-width: 35px !important;
+animation-duration: 5s !important;
+
+
+}
+.pendulum-image{
+    height: 180px !important;
+        width: 150px !important;
+}
+
+
+ }

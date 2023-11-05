@@ -1,0 +1,94 @@
+
+.image-con {
+
+    position: absolute;
+    animation: linear infinite alternate;
+    animation-name: runnin;
+    animation-duration: 20s;
+    top: 3100px;
+
+}
+
+
+@keyframes runnin {
+    0% {
+        left: 60%;
+        transform: translateX(0);
+    }
+
+    100% {
+        left: 90%;
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
+@keyframes moveUpDown {
+    0% {
+        bottom: 0;
+
+    }
+
+    100% {
+        bottom: calc(100% - 100px);
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+.image-con {
+
+        position: absolute;
+        animation: linear infinite alternate;
+        animation-name: runnin;
+        animation-duration: 20s;
+        top: 3850px;
+        animation-duration: 5s !important;
+         left: 90px !important;
+         max-width: 35px !important;
+
+    }
+
+    .box1 {
+
+    padding-top: 40px;
+    padding-left: 15px;
+}
+.div1 {
+    max-width: 96%;
+  
+}
+.div2 {
+
+    max-width: 96%;
+   
+}
+.div3{
+    max-width: 96%;
+}
+
+
+.boxim1 {
+    max-width: 15%;
+}
+.MuiTypography-h4 {
+  
+    font-size: 1rem !important;
+   
+
+}
+
+.infor {
+    position: relative;
+    bottom: 40px;
+    padding-left: 40px;
+    font-size: 15px;
+
+}
+         
+
+
+}

@@ -1,0 +1,107 @@
+.blue{
+    color: rgb(77, 19, 215);
+
+}
+
+.secon {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.firs {
+    padding-top: 85px;
+}
+.bluetext{
+    padding-right: 80px;
+}
+.paragrap{
+    padding-right: 130px;
+}
+.bo{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.paper1{
+    max-width: 35%;
+}
+
+.contenti{
+    display: flex;
+        flex-direction: column;
+        
+}
+.images{
+        padding-left: 120px;
+        padding-top: 40px;
+}
+.head{
+    margin: auto;
+    padding-bottom: 15px;
+}
+.hea{
+    padding-left: 5px;
+ 
+}
+
+.con2{
+    display: flex;
+ flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 80px;
+    padding-left: 120px;
+}
+
+
+.paper2a{
+    mix-blend-mode: multiply;
+}
+
+.bd{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.bd1 {
+    padding-left: 35px;
+   
+}
+.bd3 {
+    position: relative;
+    top:200px;
+    right:170px;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+.bluetext {
+        padding-right: 20px;
+    }
+
+        .paragrap {
+            padding-right: 10px;
+        }
+.con2 {
+    display: flex;
+   
+    
+    gap: 10px;
+    padding-top: 30px;
+    padding-left: 0px;
+}
+
+.paper2{
+    position: relative;
+    left: 70px;
+}
+   .bd3{
+right: 100px;
+top: 190px;
+   }
+
+}

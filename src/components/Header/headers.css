@@ -1,0 +1,139 @@
+.header {
+  background-color: transparent;
+  padding: 15px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    position: fixed;
+   width: 100%;
+    z-index: 10;
+    
+
+}
+.scrolled {
+    background-color: rgba(255, 255, 255, 0.9);
+   
+    box-shadow: 0px 7px 4px rgba(206, 205, 205, 0.2);
+
+}
+    
+   
+.button1 {
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(77, 49, 215);
+    color: rgb(255, 255, 255);
+    font:0.85rem "Public Sans",sans-serif;
+    font-weight: 700px;
+    padding: 9px 16px;
+    margin-right: 90px;
+    text-transform: capitalize;
+    cursor: pointer;
+    line-height: 1.5;
+  position: relative;
+  bottom:6px;
+  left:30px;
+
+}
+ .button1:hover {
+     transition: ease-in-out;
+     background-color: rgb(38, 23, 110);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+ }
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.9);
+    
+}
+.nav_menu {
+     position: absolute;
+     left: 740px;
+}
+
+.logo{
+          height: 43px;
+          position: relative;
+        right:30px;
+        top:5px;
+       
+}
+
+.nav_list {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    column-gap: 1.3rem;
+}
+
+.nav_item a {
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 1.57143;
+    font-family: "Public Sans", sans-serif;
+    padding-right: 14px;
+    padding-left: 14px;
+    text-decoration: none;
+   color:#38393a;
+ 
+        
+}
+
+
+.ham{
+ visibility: hidden;
+}
+.sideNav {
+  position: fixed;
+  width: 35%;
+  z-index: 400;
+  background-color: white;
+  color: black;
+  opacity: 0.9;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 6%;
+  align-items: center;
+  margin-top: 2%;
+}
+@media only screen and (max-width: 600px) {
+.nav_item{
+  display: none;
+}
+.mob-but{
+ position: relative;
+  right:610px
+
+}
+.l{
+padding-left: 15px;
+}
+
+.container{
+  overflow: hidden;
+}
+.header{
+width: 130%;
+overflow-x: hidden;
+}
+.container{
+  overflow-x: hidden;
+
+}
+
+  .button1 {
+     padding: 7px 35px;
+     }
+
+         .ham {
+           visibility: visible;
+         }
+         .hamm{
+          position: relative;
+          right: 675px;
+          bottom: 5px;
+         }
+
+}
