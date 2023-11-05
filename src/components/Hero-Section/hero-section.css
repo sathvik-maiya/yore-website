@@ -120,8 +120,7 @@ animation-duration: 5s !important;
 
  }
 
-
-   @media only screen and (max-width: 663px) {
+@media screen and (min-width: 600px) and (max-width: 663px) {
     .image-container {
             bottom: -30% !important;
             left: 90px !important;
